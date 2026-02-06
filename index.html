@@ -1,28 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Will You Be My Valentine? 💖</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<script>
-const yesBtn = document.getElementById("yes");
+<div class="card">
+  <h1>Will you be my Valentine? 💘</h1>
 
-yesBtn.addEventListener("click", () => {
-  window.location.href = "yes.html";
-});
-</script>
-<body>
-  <div class="card">
-    <h1>Will you be my Valentine? 💘</h1>
-    <img src="assets/source.gif" alt="cute gif" />
-    <div class="buttons">
-      <button id="yes">YES 💕</button>
-      <button id="no">no 😐</button>
-    </div>
-    <p id="response"></p>
+  <img src="assets/source.gif" id="main-gif" />
+
+  <div class="buttons">
+    <button id="yes">YES 💕</button>
+    <button id="no">no</button>
   </div>
 
-  <script src="script.js"></script>
-</body>
-</html>
+  <div id="celebration" class="hidden">
+    <img src="assets/celebrate.gif" />
+    <h2>YAY!!! 💖💖💖</h2>
+    <p>I knew you’d say yes 😘</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
