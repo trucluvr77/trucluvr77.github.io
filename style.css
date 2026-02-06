@@ -1,12 +1,3 @@
-@font-face {
-  font-family: "Super Adorable";
-  src: url("fonts/SuperAdorable.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-
-
 body {
   background: linear-gradient(135deg, #ff9a9e, #fad0c4);
   height: 100vh;
@@ -22,6 +13,8 @@ body {
   border-radius: 20px;
   text-align: center;
   box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  width: 320px;          /* 🔒 lock width */
+  overflow: hidden;      /* 🔒 prevent YES from spilling */
 }
 
 img {
@@ -63,8 +56,7 @@ button {
 
 #yes {
   transition: transform 0.2s ease;
-  box-shadow: 0 0 15px rgba(255, 77, 109, 0.5);
-
+  transform-origin: center;
 }
 
 #celebration img {
