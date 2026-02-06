@@ -9,6 +9,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0;
 }
 
 .card {
@@ -28,9 +29,12 @@ img {
 }
 
 .buttons {
-  position: relative;
-  height: 140px; /* 👈 play area */
+  display: flex;
+  justify-content: center;
+  gap: 16px;
   margin-top: 20px;
+  position: relative;
+  height: 60px;
 }
 
 button {
@@ -40,23 +44,21 @@ button {
   border-radius: 14px;
   cursor: pointer;
   font-family: inherit;
+  transition: transform 0.2s ease;
 }
 
 #yes {
   background-color: #ff6f91;
   color: white;
-  position: relative;
-  z-index: 1;
-  transition: transform 0.25s ease;
 }
 
 #no {
   background-color: #ccc;
-  position: absolute;
-  top: 60%;
-  left: 55%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
+}
+
+/* subtle wiggle on hover for fun */
+#no:hover {
+  transform: translateX(5px) rotate(-5deg);
 }
 
 .hidden {
