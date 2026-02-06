@@ -56,6 +56,10 @@ button {
   transition: transform 0.2s ease;
 }
 
+#no {
+  position: absolute;
+  z-index: 3;
+}
 
 #celebration img {
   width: 250px;
