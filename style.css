@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Super Adorable";
-  src: url("fonts/SuperAdorable.woff2") format("woff2"),
-       url("fonts/SuperAdorable.woff") format("woff");
+  src: url("fonts/SuperAdorable.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
+
 
 
 body {
