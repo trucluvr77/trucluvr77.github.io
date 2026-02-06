@@ -4,7 +4,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Super Adorable", sans-serif;
 }
 
 .card {
@@ -33,11 +32,6 @@ button {
   border-radius: 12px;
   margin: 0 10px;
   cursor: pointer;
-}
-
-#yes {
-  background-color: #ff4d6d;
-  color: white;
 }
 
 #no {
