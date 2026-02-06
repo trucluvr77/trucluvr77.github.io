@@ -50,3 +50,22 @@ button {
 #no {
   background-color: #ccc;
 }
+
+.hidden {
+  display: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+#yes {
+  transition: transform 0.2s ease;
+}
+
+#celebration img {
+  width: 250px;
+  margin-top: 20px;
+}
