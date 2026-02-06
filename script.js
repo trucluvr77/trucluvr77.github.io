@@ -7,7 +7,13 @@ let scale = 1;
 let noClicks = 0;
 
 // every NO makes YES stronger
+let yesScale = 1;
+
 noBtn.addEventListener("click", () => {
+  yesScale += 0.3; // keep it spicy
+  yesBtn.style.transform = `scale(${yesScale})`;
+  moveNoButton();
+
   noClicks++;
 
   scale += 0.25;
