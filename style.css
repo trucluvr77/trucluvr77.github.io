@@ -14,7 +14,7 @@ body {
   text-align: center;
   box-shadow: 0 10px 30px rgba(0,0,0,0.2);
   width: 320px;          /* 🔒 lock width */
-  overflow: hidden;      /* 🔒 prevent YES from spilling */
+  overflow: visible;      /* 🔒 prevent YES from spilling */
 }
 
 img {
